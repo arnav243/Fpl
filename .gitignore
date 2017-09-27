@@ -1,0 +1,43 @@
+### Gradle ###
+.gradle/
+build/
+
+bin/
+data/
+doc/
+lib/
+log/
+models/
+training-set/
+
+### testNG ###
+test-output/
+
+### Local Properties File ###
+src/main/resources/application-local.properties
+src/main/resources/quartz/quartz-local.properties
+src/main/resources/temp-*
+
+
+# Eclipse specific files/directories
+.classpath
+.project
+.settings
+.metadata
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+# Cache of project
+.gradletasknamecache
+
+# Ignore local properties
+src/main/resources/gradle/gradle-local.properties
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
